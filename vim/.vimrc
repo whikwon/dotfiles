@@ -62,6 +62,8 @@ Plugin 'https://github.com/terryma/vim-multiple-cursors'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'rking/ag.vim'
+Plugin 'vimwiki/vimwiki'
+Plugin 'https://github.com/itchyny/calendar.vim'
 
 "manually added settings
 set foldmethod=indent
@@ -174,3 +176,9 @@ map <C-T> :s:^#<CR>
 
 " strict git commit max char size
 autocmd Filetype gitcommit setlocal spell textwidth=72
+
+" vimwiki
+let wiki = {}
+let g:vimwikidir = $HOME . "/Dropbox/vimwiki"
+let wiki.path = g:vimwikidir
+let g:vimwiki_list=[wiki]
