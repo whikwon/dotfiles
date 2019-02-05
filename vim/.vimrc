@@ -178,7 +178,8 @@ map <C-T> :s:^#<CR>
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " vimwiki
-let wiki = {}
-let g:vimwikidir = $HOME . "/Dropbox/vimwiki"
-let wiki.path = g:vimwikidir
-let g:vimwiki_list=[wiki]
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/',  'syntax': 'markdown', 'ext': '.md'}]
+
+" Calendar
+let g:calendar_google_calendar = 1
+let g:calendar_google_task = 1
