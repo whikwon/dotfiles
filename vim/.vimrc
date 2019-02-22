@@ -175,3 +175,6 @@ map <C-T> :s:^#<CR>
 
 " strict git commit max char size
 autocmd Filetype gitcommit setlocal spell textwidth=72
+
+" grip setting
+let vim_markdown_preview_github=1
