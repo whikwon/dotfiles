@@ -61,7 +61,6 @@ Plugin 'https://github.com/tpope/vim-surround'
 Plugin 'https://github.com/terryma/vim-multiple-cursors'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'rking/ag.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 
 "manually added settings
