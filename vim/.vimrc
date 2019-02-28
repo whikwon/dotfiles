@@ -146,9 +146,6 @@ syntax enable
 colorscheme gruvbox
 set background=dark
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
-
 " Macros
 let @a='i%load_ext autoreload%autoreload 2kVj"+yVjd'
 
