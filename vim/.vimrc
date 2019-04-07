@@ -47,7 +47,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'majutsushi/tagbar'
 " Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
@@ -91,7 +90,7 @@ nnoremap gl :tab split \| YcmCompleter GoTo <CR>
 nnoremap gD :tab YcmCompleter GoToDeclaration <CR>
 nnoremap gd :YcmCompleter GetDoc <CR>
 nnoremap <F5> :NERDTree <CR>
-nnoremap <C-F> :CtrlP <CR>
+nnoremap <C-F> :Files <CR>
 map <leader>w :w!<CR>
 nmap <F8> :TagbarToggle<CR>
 
@@ -152,10 +151,6 @@ let @a='i%load_ext autoreload%autoreload 2kVj"+yVjd'
 " smartindent off for python
 au! FileType python setl nosmartindent
 
-" comment keymap
-map <C-_> :s:^:#<CR>
-map <C-T> :s:^#<CR>
-
 " remove whitespace in python script
 autocmd BufWritePre *.py :%s/\s\+$//e
 
@@ -164,10 +159,6 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " execute python script in vim 
 nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
-
-" comment lines 
-map <C-C> :s:^:#<cr>
-map <C-T> :s:^#<CR>
 
 " strict git commit max char size
 autocmd Filetype gitcommit setlocal spell textwidth=72
