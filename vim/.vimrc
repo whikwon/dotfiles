@@ -90,13 +90,11 @@ nnoremap gl :tab split \| YcmCompleter GoTo <CR>
 nnoremap gD :tab YcmCompleter GoToDeclaration <CR>
 nnoremap gd :YcmCompleter GetDoc <CR>
 nnoremap <F5> :NERDTree <CR>
-nnoremap <C-F> :Files <CR>
-map <leader>w :w!<CR>
-nmap <F8> :TagbarToggle<CR>
-
-" copy to and paste from clipboard
-nnoremap <C-c> "+y
-nnoremap <C-p> "+p
+nnoremap <C-F> :Files 
+nnoremap <C-A> :Ag 
+nnoremap <C-M> :Marks <CR>
+map <leader>w :w! <CR>
+nmap <F8> :TagbarToggle <CR>
 
 let python_highlight_all=1
 syntax on
