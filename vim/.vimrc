@@ -50,7 +50,6 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
-Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-fugitive' 
 Plugin 'tpope/vim-repeat'
 Plugin 'https://github.com/terryma/vim-smooth-scroll'
@@ -60,7 +59,8 @@ Plugin 'https://github.com/terryma/vim-multiple-cursors'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'JamshedVesuna/vim-markdown-preview'
-Plugin 'https://github.com/cocopon/iceberg.vim'
+Plugin 'https://github.com/nanotech/jellybeans.vim'
+Plugin 'morhetz/gruvbox'
 
 "manually added settings
 set foldmethod=indent
@@ -140,7 +140,7 @@ let g:syntastic_check_on_wq = 0
 let g:solarized_termcolors=256
 
 syntax enable
-colorscheme gruvbox
+colorscheme jellybeans
 set background=dark
 
 " Macros
