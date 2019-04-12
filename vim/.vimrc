@@ -49,7 +49,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'majutsushi/tagbar'
-" Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'vim-airline/vim-airline'
 Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-fugitive' 
@@ -61,6 +60,7 @@ Plugin 'https://github.com/terryma/vim-multiple-cursors'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'https://github.com/cocopon/iceberg.vim'
 
 "manually added settings
 set foldmethod=indent
@@ -90,9 +90,9 @@ nnoremap gl :tab split \| YcmCompleter GoTo <CR>
 nnoremap gD :tab YcmCompleter GoToDeclaration <CR>
 nnoremap gd :YcmCompleter GetDoc <CR>
 nnoremap <F5> :NERDTree <CR>
+nnoremap <C-K> :Marks <CR>
 nnoremap <C-F> :Files 
 nnoremap <C-A> :Ag 
-nnoremap <C-M> :Marks <CR>
 map <leader>w :w! <CR>
 nmap <F8> :TagbarToggle <CR>
 
