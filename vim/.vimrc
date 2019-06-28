@@ -44,7 +44,8 @@ filetype plugin indent on    " required
 
 " manually added plugins
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'neomake/neomake'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'airblade/vim-gitgutter'
@@ -126,20 +127,9 @@ let g:nerdtree_tabs_open_on_console_startup = 0
 " ag setting
 let g:ag_highlight=1
 
-"syntastic setting
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-
 " soloarized setting
 let g:solarized_termcolors=256
 
-syntax enable
 colorscheme jellybeans
 set background=dark
 
@@ -163,3 +153,7 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " grip setting
 let vim_markdown_preview_github=1
+
+" When writing a buffer (no delay).
+call neomake#configure#automake('w')
+let g:neomake_python_enabled_makers = ['flake8']
