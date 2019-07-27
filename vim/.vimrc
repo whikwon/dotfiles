@@ -124,6 +124,9 @@ let g:ycm_goto_buffer_command = 'split-or-existing-window'
 " vim-nerdtree-tabs setting
 let g:nerdtree_tabs_open_on_console_startup = 0
 
+" fzf setting
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
+
 " ag setting
 let g:ag_highlight=1
 
