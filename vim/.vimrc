@@ -81,6 +81,8 @@ set noswapfile
 set clipboard=unnamedplus
 set diffopt+=vertical
 
+nnoremap <S-H> :lprevious <CR>
+nnoremap <S-L> :lnext <CR>
 nnoremap <space> za
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
