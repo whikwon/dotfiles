@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 2,
+    "keyboard.dispatch": "keyCode",
+	"editor.rulers": [120],
+	"editor.minimap.enabled": false,
+	"workbench.editor.showTabs": false,
+	"python.linting.pylintArgs": ["--max-line-length=100"],
+    "vim.hlsearch": true,
+	"workbench.editor.enablePreview": false
+	"workbench.editor.enablePreviewFromQuickOpen": false
+}
