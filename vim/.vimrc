@@ -88,10 +88,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-nnoremap go :tab YcmCompleter GoTo <CR>
-nnoremap gl :tab split \| YcmCompleter GoTo <CR>
-nnoremap gD :tab YcmCompleter GoToDeclaration <CR>
-nnoremap gd :YcmCompleter GetDoc <CR>
+nnoremap gd :tab YcmCompleter GoTo <CR>
+nnoremap gD :tab YcmCompleter GetDoc <CR>
 nnoremap <F5> :NERDTree <CR>
 nnoremap <C-K> :Marks <CR>
 nnoremap <C-F> :Files 
