@@ -1,3 +1,6 @@
+# Installation 
+
+```
 # packages
 sudo apt update
 sudo apt install -y tmux zsh stow yum
@@ -65,3 +68,4 @@ docker run \
 
 # anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+```

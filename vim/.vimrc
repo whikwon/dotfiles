@@ -62,6 +62,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'https://github.com/nanotech/jellybeans.vim'
 Plugin 'morhetz/gruvbox'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 "manually added settings
 set foldmethod=indent

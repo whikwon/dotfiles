@@ -1,5 +1,5 @@
-# dotfiles
-configuration files collection
+# Dotfiles
+Configuration files collection
 
 ## Usage
 Pull the repository, and then create the symbolic links using GNU stow.
@@ -10,7 +10,7 @@ cd ~/.dotfiles
 stow tmux vim
 ```
 
-## tmux
+## Tmux
 Copy from tmux buffer to system buffer (clipboard)
 ```
 sudo apt install --assume-yes xclip
