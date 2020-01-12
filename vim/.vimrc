@@ -151,7 +151,7 @@ colorscheme jellybeans
 set background=dark
 
 " Macros
-let @a='i%load_ext autoreload%autoreload 2kVj"+yVjd'
+let @a='i%load_ext autoreload%autoreload 2'
 
 " smartindent off for python
 au! FileType python setl nosmartindent
