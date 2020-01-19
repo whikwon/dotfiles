@@ -6,6 +6,6 @@
 	"workbench.editor.showTabs": false,
 	"python.linting.pylintArgs": ["--max-line-length=100"],
     "vim.hlsearch": true,
-	"workbench.editor.enablePreview": false
+	"workbench.editor.enablePreview": false,
 	"workbench.editor.enablePreviewFromQuickOpen": false
 }
