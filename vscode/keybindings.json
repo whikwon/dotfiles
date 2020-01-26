@@ -19,5 +19,75 @@
         "key": "ctrl+k ctrl+i",
         "command": "-editor.action.showHover",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k l",
+        "command": "search.action.focusSearchList"
+    },
+    {
+        "key": "ctrl+w shift+h",
+        "command": "workbench.action.moveEditorToLeftGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+w shift+k",
+        "command": "workbench.action.moveEditorToAboveGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+w shift+l",
+        "command": "workbench.action.moveEditorToRightGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+w shift+j",
+        "command": "workbench.action.moveEditorToBelowGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+w k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+k ctrl+up",
+        "command": "-workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+w j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+k ctrl+down",
+        "command": "-workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "workbench.action.minimizeOtherEditors",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w =",
+        "command": "workbench.action.evenEditorWidths",
+        "when": "editorTextFocus"
     }
 ]
