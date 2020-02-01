@@ -64,7 +64,6 @@ Plugin 'https://github.com/nanotech/jellybeans.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'https://github.com/justinmk/vim-sneak'
 
 "manually added settings
 set foldmethod=indent

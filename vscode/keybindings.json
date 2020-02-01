@@ -27,27 +27,27 @@
     {
         "key": "ctrl+w shift+h",
         "command": "workbench.action.moveEditorToLeftGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+w shift+k",
         "command": "workbench.action.moveEditorToAboveGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+w shift+l",
         "command": "workbench.action.moveEditorToRightGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+w shift+j",
         "command": "workbench.action.moveEditorToBelowGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+w h",
         "command": "workbench.action.focusLeftGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+k ctrl+left",
@@ -56,7 +56,7 @@
     {
         "key": "ctrl+w l",
         "command": "workbench.action.focusRightGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+k ctrl+right",
@@ -65,7 +65,7 @@
     {
         "key": "ctrl+w k",
         "command": "workbench.action.focusAboveGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode!='Insert'"
     },
     {
         "key": "ctrl+k ctrl+up",
@@ -74,20 +74,33 @@
     {
         "key": "ctrl+w j",
         "command": "workbench.action.focusBelowGroup",
-        "when": "editorTextFocus && vim.active"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+k ctrl+down",
         "command": "-workbench.action.focusBelowGroup"
     },
     {
-        "key": "ctrl+k z",
-        "command": "workbench.action.minimizeOtherEditors",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+w =",
         "command": "workbench.action.evenEditorWidths",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "workbench.action.maximizeEditor"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
     }
 ]
