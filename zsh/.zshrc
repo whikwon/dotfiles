@@ -118,3 +118,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/whikwon/.mujoco/mjpro150/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0
+
+## CUDA and cuDNN paths
+export PATH=/usr/local/cuda/bin:${PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
+
