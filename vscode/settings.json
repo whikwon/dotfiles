@@ -8,5 +8,9 @@
     "vim.hlsearch": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "terminal.integrated.inheritEnv": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "liveServer.settings.donotShowInfoMsg": true
 }
