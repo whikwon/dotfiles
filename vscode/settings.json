@@ -12,5 +12,7 @@
     "terminal.integrated.inheritEnv": false,
     "liveServer.settings.donotVerifyTags": true,
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
 }
